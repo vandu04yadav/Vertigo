@@ -1,0 +1,200 @@
+﻿body {
+    /*   background-color:brown; */
+    font-family: 'Poppins', sans-serif;
+    /*    background-image:url("/Hotel/Images/wallpaper.jpg");*/
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0,0,0,0.2)), url("/Images/wallpaper.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    
+}
+
+
+.menu {
+    width: 80vh;
+    height: 120px;
+    color: #2A303B;
+    font-weight: bold;
+}
+
+.logo {
+    color: #007bff;
+    font-size: 50px;
+    font-weight: bolder;
+    height: 120px;
+    font-family: 'Style Script', cursive;
+}
+
+.menu_right {
+    width: 250px;
+    height: 120px;
+    color: #2A303B;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#DDList_Room, #DDList_Rating {
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+}
+    .drop-bg{
+        background-color:deeppink !important;
+    }
+
+    #DDList_Room.focus, #DDList_Rating.focus {
+        background-color: transparent;
+    }
+
+.logo_T {
+    color: forestgreen;
+    font-size: 56px;
+    font-family: 'Times New Roman', Times, serifl;
+}
+
+.searchtext {
+    width: 450px;
+    height: 50px;
+    border-radius: 18px;
+}
+
+.seach_sec {
+    margin-top: 100px;
+}
+
+#BtnSearch {
+    margin-left: 40px;
+    width: 220px;
+    height: 45px;
+    border-radius: 15px;
+}
+
+.nav_list {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    background-attachment: scroll;
+}
+
+.auto-style1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 900;
+    text-shadow: 0px 6px black;
+}
+
+.head {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 900;
+    text-shadow: 0px 9px black;
+    font-size: 60px;
+}
+
+.welcome {
+    margin-top: 90px;
+}
+
+    .welcome h3 {
+        font-size: 40px;
+    }
+   /* Login Section*/
+/*.login-sec{
+    margin-top:10px;
+}*/
+.n1_UserName{
+   border-block-style:double;
+
+}
+
+
+
+
+/* Hotel Details*/
+.add-dtls {
+    margin-top: 10px;
+}
+.TxtInputs {
+    width: 450px;
+    height: 50px;
+}
+.dtls-head {
+    width: 95%;
+    margin: 0 auto;
+    height: 60px;
+    border-radius:6px;
+    background-color: #292e31;
+    color:white;
+    padding-left:25px;
+}
+.dtls-sec1{
+    margin-top:50px;
+}
+.containt-sec {
+    background-color: #ECF0F1;
+}
+.containt-sec h1 {
+    color: #323648;
+}
+#txtDesc{
+    width: 350px;
+    height: 100px;
+}
+.dtls-head1 {
+    width: 95%;
+    margin: 0 auto;
+    height:1px;
+    background-color: #999999;
+}
+.dtls-head2{
+    width:95%;
+    margin:0 auto;
+    height:1px;
+    background-color:#999999;
+}
+.room-dtls{
+    padding-left:35px;
+   
+}
+.chk-room{
+    margin-top:50px;
+}
+.contact-sec{
+    margin-bottom:100px;
+}
+
+
+/*Home page*/
+
+.hotel-desc{
+    width:700px;
+    text-align:justify
+}
+
+.LblOP {
+    color:#4a4a4a;
+    /*color: BorderStyle="None" Font-Bold="True" ForeColor="#4A4A4A"*/
+}
+/*.searchbox{
+    width:300px;
+    height:30px;
+}*/
+
+
+.display-con{
+   /* width:600px;
+    background-color:aquamarine;*/
+}
+
+/*Booking */
+
+.hotel-select {
+    width: 100%;
+    background: #CB934D;
+    height:80px;
+    color:white;
+    font-size:x-large;
+    align-items:center;
+}
